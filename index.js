@@ -26,10 +26,7 @@ app.use('/api/reviews', reviewRoute);
 
 // Definiendo la conexión a base de datos a través de mongoose
 // La conexión a base de datos es de tipo promesa
-
-//mongoose.connect('mongodb://localhost:27017/AirBnB')
-//mongoose.connect('mongodb+srv://danielvazquez:uDxcNzeplxNqRBK5@cluster0.n7ayk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/myDatabase')
-mongoose.connect('mongodb+srv://utp0159359:DrW2AE0oKf54Pxwu@cluster0.fjozp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/listingsAndReviews ')
+mongoose.connect('189.197.191.154://utp0159359:5NfD5V6bFrGVDVgk@cluster0.fjozp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then( () => {
     console.log('Conectado a la base de datos de manera exitosa');
     app.listen(3000, () => {
