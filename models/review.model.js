@@ -7,21 +7,18 @@ const ReviewSchema = mongoose.Schema(
             type: String,
         },
         Abril: {
-            type: String,
+            type: Int32,
             required: true
         },
         Agosto: {
-            type: String,
+            type: Int32,
             required: true
         },
         Año: {
-            type: String,
+            type: Int32,
         },
         Clave_Ent: {
-            type: String,
-        },
-        description: {
-            type: String,
+            type: Int32,
         },
         Municipio: {
             type: String,
