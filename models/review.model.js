@@ -5,9 +5,6 @@ const ReviewSchema = mongoose.Schema(
     {
         Entidad: {
             type: String,
-        },
-        Clave_Ent: {
-            type: mongoose.Schema.Types.Int,
         }
     }
 )
