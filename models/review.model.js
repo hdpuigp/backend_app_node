@@ -4,38 +4,53 @@ const mongoose = require('mongoose');
 const ReviewSchema = mongoose.Schema(
     {
         _id: {
-            type: String,
+            type: ObjectId,
         },
-        listing_url: {
-            type: String,
-            required: true
-        },
-        name: {
+        Abril: {
             type: String,
             required: true
         },
-        sumary: {
+        Agosto: {
+            type: String,
+            required: true
+        },
+        Año: {
             type: String,
         },
-        space: {
+        Clave_Ent: {
             type: String,
         },
         description: {
             type: String,
         },
-        neighborhood_overview: {
+        Municipio: {
             type: String,
         },
-        notes: {
+        Diciembre: {
             type: String,
         },
-        transit: {
+        Enero: {
             type: String,
         },
-        access: {
+        Entidad: {
             type: String,
         },
-        interaction: {
+        Febrero: {
+            type: String,
+        },
+        Modalidad: {
+            type: String,
+        },
+        Municipio: {
+            type: String,
+        },
+        Noviembre: {
+            type: String,
+        },
+        Octubre: {
+            type: String,
+        },
+        Septiembre: {
             type: String,
         },
     }
