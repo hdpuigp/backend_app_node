@@ -5,7 +5,20 @@ const ReviewSchema = mongoose.Schema(
     {
         Entidad: {
             type: String,
+        },
+        Año: {
+            type: String,
+        },
+        Municipio: {
+            type: String,
+        },
+        Delito: {
+            type: String,
+        },
+        Subtipo: {
+            type: String,
         }
+        
     }
 )
 
