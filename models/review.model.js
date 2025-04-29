@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const ReviewSchema = mongoose.Schema(
     {
         _id: {
-            type: ObjectId,
+            type: String,
         },
         Abril: {
             type: String,
