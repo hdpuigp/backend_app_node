@@ -8,27 +8,21 @@ const ReviewSchema = mongoose.Schema(
         },
         Año: {
     type: Number,
-    required: true
   },
   Municipio: {
     type: String,
-    required: true
   },
   Delito: {
     type: String,
-    required: true
   },
   Subtipo: {
     type: String,
-    required: true
   },
   Modalidad: {
     type: String,
-    required: true
   },
   Víctimas: {
     type: Number,
-    required: true
   }
     }
 )
