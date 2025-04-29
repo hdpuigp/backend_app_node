@@ -6,48 +6,30 @@ const ReviewSchema = mongoose.Schema(
         _id: {
             type: String,
         },
-        Abril: {
-            type: String,
-        },
-        Agosto: {
-            type: String,
-        },
         Año: {
-            type: String,
-        },
-        Clave_Ent: {
-            type: String,
-        },
-        Municipio: {
-            type: String,
-        },
-        Diciembre: {
-            type: String,
-        },
-        Enero: {
-            type: String,
-        },
-        Entidad: {
-            type: String,
-        },
-        Febrero: {
-            type: String,
-        },
-        Modalidad: {
-            type: String,
-        },
-        Municipio: {
-            type: String,
-        },
-        Noviembre: {
-            type: String,
-        },
-        Octubre: {
-            type: String,
-        },
-        Septiembre: {
-            type: String,
-        },
+    type: Number,
+    required: true
+  },
+  Municipio: {
+    type: String,
+    required: true
+  },
+  Delito: {
+    type: String,
+    required: true
+  },
+  Subtipo: {
+    type: String,
+    required: true
+  },
+  Modalidad: {
+    type: String,
+    required: true
+  },
+  Víctimas: {
+    type: Number,
+    required: true
+  }
     }
 )
 
