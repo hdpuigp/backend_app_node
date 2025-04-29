@@ -3,27 +3,12 @@ const mongoose = require('mongoose');
 // Definiendo la estructura del documento review
 const ReviewSchema = mongoose.Schema(
     {
-        _id: {
+        Entidad: {
             type: String,
         },
-        Año: {
-    type: Number,
-  },
-  Municipio: {
-    type: String,
-  },
-  Delito: {
-    type: String,
-  },
-  Subtipo: {
-    type: String,
-  },
-  Modalidad: {
-    type: String,
-  },
-  Víctimas: {
-    type: Number,
-  }
+        Clave_Ent: {
+            type: mongoose.Schema.Types.Int,
+        }
     }
 )
 
