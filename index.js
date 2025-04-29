@@ -26,7 +26,7 @@ app.use('/api/reviews', reviewRoute);
 
 // Definiendo la conexión a base de datos a través de mongoose
 // La conexión a base de datos es de tipo promesa
-mongoose.connect('189.197.191.154://utp0159359:5NfD5V6bFrGVDVgk@cluster0.fjozp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://utp0159359:5NfD5V6bFrGVDVgk@cluster0.vkovxdv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then( () => {
     console.log('Conectado a la base de datos de manera exitosa');
     app.listen(3000, () => {
